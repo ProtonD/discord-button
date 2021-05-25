@@ -79,4 +79,4 @@ client.on('message', async function(message) {
 
 })//
 
-client.login("NzYzNzc1ODI5Nzk2NTg1NDk0.X38nrA.l90EjOC7DOzOiqCE47wCxS4AFUk");
+client.login("TOKEN");
