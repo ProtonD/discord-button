@@ -21,27 +21,17 @@ OldModz95
 
 # Install Package
 <br>
+
 ```
 npm i discord-button
 ```
+
 <br>
 
 # Install Index.js
 <br>
 
-[Download Inde.js](https://github.com/ProtonD/discord-button)
-
-<br>
-<br>
-
-# Why you can't see the buttons and how to fix? 
-
-```
-Option 1: You must be a discord API library developer, like discord.js, eris etc
-```
-```
-Option 2: Your bot application must be enabled by a discord employee and you can send the buttons only on enabled to use buttons server (guild)
-```
+[Download Index.js](https://github.com/ProtonD/discord-button)
 
 <br>
 <br>
@@ -50,11 +40,11 @@ Option 2: Your bot application must be enabled by a discord employee and you can
 ## Picture
 
 <br>
-<img src="https://i.imgur.com/HPNsa1P.png">
+<img src="https://i.imgur.com/Rz0mrZz.png">
 <br>
-<img src="https://i.imgur.com/PO5pBzg.png">
+<img src="https://i.imgur.com/uaTuq7g.png">
 <br>
-<img src="https://i.imgur.com/6SSPhzV.gif">
+<img src="https://i.imgur.com/SCNfGPI.png">
 
 
 ## 📞 Contact me

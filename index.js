@@ -1,4 +1,4 @@
-const { MessageEmbed, Client } = require("discord.js");
+const { MessageEmbed, Client, Message } = require("discord.js");
 const client = new Client();
 const prefix = "+";
 const fetch = require("node-fetch");
@@ -67,16 +67,38 @@ client.on('message', async function(message) {
 	}
 //////////////////////////////////////////////    
 
-	if (message.content.startsWith(prefix + 'test')) {
-        let btn = new disbut.MessageButton()
-		.setStyle('gray')
-		.setLabel('My first button!')
-		.setURL("https://google.com")
+	if (message.content.startsWith(prefix + 'url')) {
+        message.delete(message.author);
+
+		let btn = new disbut.MessageButton()
+		.setStyle('url')
+		.setLabel('Discord Button Link NPM')
+		.setURL('https://npmjs.com/discord-button')
 		.setID('clickto');
 
-        await message.channel.send(`Ayo`, btn);
+        await message.channel.send(`Button Discord Link`, btn);
+	}
+
+
+	if (message.content.startsWith(prefix + 'click')) {
+        message.delete(message.author);
+		let btn3 = new disbut.MessageButton()
+		.setStyle('red')
+		.setLabel('Button Red')
+		.setID('click');
+
+		let btn2 = new disbut.MessageButton()
+		.setStyle('green')
+		.setLabel('Discord Button')
+		.setID('clickwo');
+
+		await message.channel.send(`https://discord.gg/3t2568W`, {
+			 buttons: [
+			   btn2, btn3
+			 ]
+		});
 	}
 
 })//
 
-client.login("NzYzNzc1ODI5Nzk2NTg1NDk0.X38nrA.l90EjOC7DOzOiqCE47wCxS4AFUk");
+client.login("TOKEN");
